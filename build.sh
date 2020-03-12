@@ -9,7 +9,8 @@ if [ $# != 1 ]; then
 fi
 
 NPB_VERSION=3.3.1
-NPB_MAJOR_VERSION=$(echo $NPB_VERSION | awk '{ print substr($1,0,3) }')
+#NPB_MAJOR_VERSION=$(echo $NPB_VERSION | awk '{ print substr($1,0,3) }')
+NPB_MAJOR_VERSION=3.3
 PATH_TO_BE_SAVED=$1
 
 ORIGIN_PATH=$(pwd)
